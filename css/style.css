@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.custom_navbar{
+    margin-left: 67%;
+}
+/* Style the search field */
+form.search_field{
+    width: 35%;
+    margin: auto;
+    margin-top: 35px;
+}
+form.search_field input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  form.search_field button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.search_field button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.search_field::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+/* card style start here  */
+.main_card{
+    margin-top: 50px;
+}
+.card_shadow{
+    box-shadow: 10px 5px 20px 2px #8888;
+    border-radius: 15px;
+}
+.card_shadow img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+/* food details area start here  */
+
+.food_details{
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+
+}
+.food_details img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 1px 4px 10px 1px #d7d7d7;
+}
+.food_details_subtitle{
+    margin: 14px 0px;
+    display: block;
+    color:#4b4b4b;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.details p{
+    background-color:#f4f4f4;
+}
+
+
+
+
+
+
+
+
+
+.meal_showing_div{
+    margin-top: 10px;
+    margin-bottom: 10px;4
+    cursor: pointer;
+}
